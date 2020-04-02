@@ -1,0 +1,7 @@
+header
+.header__logo {
+  display: inline; }
+
+.header__menu a {
+  display: flex;
+  float: right; }

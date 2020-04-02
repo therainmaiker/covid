@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header__image {
+  width: 100%; }
+
+.header__logo {
+  display: flex;
+  float: left;
+  margin-top: -6.5%; }
+
+.header__menu {
+  display: flex;
+  float: right;
+  align-items: center;
+  word-spacing: 2em;
+  margin-top: -4%; }
+
+.header__menu a {
+  margin-right: 3em;
+  font-weight: 700;
+  font-size: 1.7em;
+  text-decoration: none; }
+
+.advice {
+  background: #F4CF1B;
+  margin-top: -0.2%;
+  font-size: 1.6rem;
+  font-family: cairo; }
