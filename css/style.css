@@ -1,9 +1,19 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-decoration: none; }
 
 .header__image {
   width: 100%; }
+
+.header__menu--color {
+  color: black; }
+
+.header__menu--color1 {
+  color: #1078AD; }
+
+.header__menu--color2 {
+  color: #1078AD; }
 
 .header__logo {
   display: flex;
@@ -14,7 +24,6 @@
   display: flex;
   float: right;
   align-items: center;
-  word-spacing: 2em;
   margin-top: -4%; }
 
 .header__menu a {
