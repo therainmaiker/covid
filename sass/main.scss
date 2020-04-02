@@ -55,5 +55,43 @@ background: $color-secondary;
 margin-top: -0.2% ;
 font-size: 1.6rem;
 font-family: cairo;
+width: 100%;
 }
 
+.advice__title { 
+color: black;
+padding-top: 20px;
+text-align: center;
+}
+
+.advice__para { 
+text-align: center;
+color: $color-primary;
+}
+
+
+a:-webkit-any-link {
+     cursor: unset;
+    text-decoration: none;
+}
+
+
+
+.corona {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+}
+
+.corona__image { 
+text-align: center;
+width: 50%;
+
+}
+.corona__text {
+text-align: center;
+width: 50%;
+
+}
