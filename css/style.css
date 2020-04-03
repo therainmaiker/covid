@@ -63,6 +63,11 @@ a:-webkit-any-link {
 
 .corona__image {
   text-align: center;
+  width: 50%;
+  margin-top: 6%; }
+
+img.corona__image {
+  text-align: center;
   width: 50%; }
 
 .corona__text {
@@ -84,6 +89,7 @@ a:-webkit-any-link {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4%;
   width: 90%;
   background-color: rgba(150, 197, 220, 0.5);
   border: none;
@@ -99,3 +105,22 @@ a:-webkit-any-link {
 button:hover {
   color: #FFFFFF;
   background-color: #1078AD; }
+
+.symptome__para {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5%; }
+
+.symptome__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 100px; }
+
+.tsymptome__container--size {
+  width: 50%;
+  justify-content: center;
+  justify-self: center;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 5%; }
