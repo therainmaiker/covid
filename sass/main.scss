@@ -18,7 +18,8 @@ $color-secondary: #F4CF1B;
 * {
     margin: 0;
     padding: 0;
-    
+   
+
 }
 
 .header__image {
@@ -133,6 +134,7 @@ margin-top: 5%;
 margin-bottom: 2%;
 font-size: 2rem;
 color: $color-primary;
+
 }
 
 .corona__text--paragraph {
@@ -169,7 +171,7 @@ button:hover {
 text-align: center;
 font-size: 2rem;
 margin-top: 5%;
-
+color: $color-primary;
 
 }
 
@@ -220,23 +222,27 @@ margin-top: 5%;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-margin-top: 100px ;
 
 }
 
-.tsymptome__container--size{
+.symptome__container--size{
   
- 
 width: 50%;
-justify-content: center;
-justify-self: center;
-display: flex;
+display: inline-block;
 margin: 0 auto;
+margin-top: 5%;
 padding-bottom: 5% ;    
+text-align: center;
+
 
 
 }
+.caption{
+font-family: Cairo;
+font-size: 1.5em;
+font-weight: 900;
 
+}
 
 // .symptome__container__flex{
 
@@ -248,3 +254,19 @@ padding-bottom: 5% ;
 
 
 // }
+
+
+
+.suggestions__title{
+
+font-family: cairo;
+font-size: 2.5em;
+text-align: center;
+color: $color-primary;
+}
+
+.caption {
+
+display: block;
+
+}

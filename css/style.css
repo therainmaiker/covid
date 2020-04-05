@@ -109,18 +109,32 @@ button:hover {
 .symptome__para {
   text-align: center;
   font-size: 2rem;
-  margin-top: 5%; }
+  margin-top: 5%;
+  color: #1078AD; }
 
 .symptome__container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 100px; }
+  flex-wrap: wrap; }
 
-.tsymptome__container--size {
+.symptome__container--size {
   width: 50%;
-  justify-content: center;
-  justify-self: center;
-  display: flex;
+  display: inline-block;
   margin: 0 auto;
-  padding-bottom: 5%; }
+  margin-top: 5%;
+  padding-bottom: 5%;
+  text-align: center; }
+
+.caption {
+  font-family: Cairo;
+  font-size: 1.5em;
+  font-weight: 900; }
+
+.suggestions__title {
+  font-family: cairo;
+  font-size: 2.5em;
+  text-align: center;
+  color: #1078AD; }
+
+.caption {
+  display: block; }
