@@ -4,6 +4,7 @@ $btn_color :#1078ad;
 $color-primary: #1078AD;
 $color-secondary: #F4CF1B;
 
+
 // header { 
 // margin: 0;
 // padding: 0;
@@ -172,6 +173,7 @@ text-align: center;
 font-size: 2rem;
 margin-top: 5%;
 color: $color-primary;
+margin-bottom: 5%;
 
 }
 
@@ -229,11 +231,11 @@ flex-wrap: wrap;
   
 width: 50%;
 display: inline-block;
-margin: 0 auto;
-margin-top: 5%;
-padding-bottom: 5% ;    
+// margin: 0 auto;
+// margin-top: 5%;
+// padding-bottom: 5% ;    
 text-align: center;
-
+margin-top: 3%;
 
 
 }
@@ -270,3 +272,123 @@ color: $color-primary;
 display: block;
 
 }
+
+.recommand {
+
+background-color:$color1 ;
+
+&__title {
+
+    color:white;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    font-size: 24px;
+
+}
+&__para{
+    display: inline;
+    margin-left:6.3%;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    
+    
+}
+&__appel{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    float: right;
+    margin-right: 23%;
+}
+&__btn{
+    margin: 10px 120px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+}
+&__btn p{
+    color: white;
+    font-weight: 700;
+}
+&__btn--rec2{
+    grid-area: 2/1;
+}
+&__btn--rec3{
+    grid-area: 3/1;
+}
+&__btn--rec4{
+    grid-area: 4/1;
+}
+&__btn--rec5{
+    grid-area: 5/1;
+}
+&__btn--num1{
+    // background-color: $color-secondary;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 120px;
+    text-align: center;
+    
+}
+&__btn--pr1{
+    font-size: 20px;
+    color: $color-primary;
+    margin-top: 5%;
+
+}
+&__btn--num2{
+    background-color: $color-secondary;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    grid-row: 3/4;
+
+    
+}
+&__btn--pr2{
+    font-size: 20px;
+    color: $color-primary;
+    margin-top: 5%;
+
+}
+&__btn--num3{
+    background-color: $color-secondary;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+
+}
+&__btn--num4{ 
+    grid-row: 5/5;
+
+}
+
+
+
+
+&__btn--pr3{
+    font-size: 20px;
+    color: $color-primary;
+   
+    margin-top: 5%;
+
+}
+&__btn--link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 32px;
+   
+
+}
+&__btn--link:hover{
+    color: white;
+    
+}
+   
+}
+
+
+
