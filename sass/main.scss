@@ -377,7 +377,57 @@ button:hover {
     }
     &__logo {
         display: block;
-        margin: 20px auto;
+        margin: 24px auto;
     }
 
+}
+
+.footer {
+    &__leftside--title {
+        color: $color1;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    &__leftside--para {
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    &__leftside--num {
+        font-size: 20px;
+        color: green;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    &__rightside {
+
+        margin-top: 10%;
+
+    font-size: 20px;
+
+    }
+
+
+    
+    &__rightside--acceuil {
+        font-weight: bold;
+        border-bottom: 1px solid $color1;
+        padding-bottom: 10px;
+        margin-bottom: 8px;
+    }
+    &__rightside--conseils{
+        border-bottom: 1px solid $color1;
+        padding-bottom: 10px;
+        margin-bottom: 8px;
+    }
+}
+
+.acc{
+    color: $color-secondary;
+    font-weight: 700;
+}
+.bottom-footer{
+    background-color: $color-secondary;
+    width: 100%;
+    height: 35px;
 }
