@@ -367,3 +367,17 @@ button:hover {
 }
 
 
+.footer {
+    &__container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        margin: 0 160px 40px;
+        text-align: center;
+    }
+    &__logo {
+        display: block;
+        margin: 20px auto;
+    }
+
+}

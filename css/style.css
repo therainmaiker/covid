@@ -242,3 +242,14 @@ button:hover {
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer; }
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  margin: 0 160px 40px;
+  text-align: center; }
+
+.footer__logo {
+  display: block;
+  margin: 20px auto; }
