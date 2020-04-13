@@ -9,13 +9,13 @@
   color: black; }
 
 .header__menu--color1 {
-  color: #1078AD; }
+  color: #1078ad; }
 
 .header__menu--color2 {
-  color: #1078AD;
+  color: #1078ad;
   cursor: pointer;
   background-color: transparent;
-  border: 2px solid #1078AD;
+  border: 2px solid #1078ad;
   border-radius: 10px;
   padding: 10px 10px; }
 
@@ -37,7 +37,7 @@
   text-decoration: none; }
 
 .advice {
-  background: #F4CF1B;
+  background: #f4cf1b;
   margin-top: -0.2%;
   font-size: 1.6rem;
   font-family: cairo;
@@ -50,7 +50,7 @@
 
 .advice__para {
   text-align: center;
-  color: #1078AD; }
+  color: #1078ad; }
 
 a:-webkit-any-link {
   cursor: unset;
@@ -78,7 +78,7 @@ img.corona__image {
   margin-top: 5%;
   margin-bottom: 2%;
   font-size: 2rem;
-  color: #1078AD; }
+  color: #1078ad; }
 
 .corona__text--paragraph {
   margin-top: 3%;
@@ -93,9 +93,9 @@ img.corona__image {
   width: 90%;
   background-color: rgba(150, 197, 220, 0.5);
   border: none;
-  color: #1078AD;
+  color: #1078ad;
   padding: 8px 12px;
-  border: 2px solid #1078AD;
+  border: 2px solid #1078ad;
   border-radius: 10px;
   text-align: center;
   text-decoration: none;
@@ -103,14 +103,14 @@ img.corona__image {
   font-weight: bolder; }
 
 button:hover {
-  color: #FFFFFF;
-  background-color: #1078AD; }
+  color: #ffffff;
+  background-color: #1078ad; }
 
 .symptome__para {
   text-align: center;
   font-size: 2rem;
   margin-top: 5%;
-  color: #1078AD;
+  color: #1078ad;
   margin-bottom: 5%; }
 
 .symptome__container {
@@ -133,7 +133,7 @@ button:hover {
   font-family: cairo;
   font-size: 2.5em;
   text-align: center;
-  color: #1078AD; }
+  color: #1078ad; }
 
 .caption {
   display: block; }
@@ -181,20 +181,20 @@ button:hover {
     text-align: center; }
   .recommand__btn--pr1 {
     font-size: 20px;
-    color: #1078AD;
+    color: #1078ad;
     margin-top: 5%; }
   .recommand__btn--num2 {
-    background-color: #F4CF1B;
+    background-color: #f4cf1b;
     width: 200px;
     height: 40px;
     text-align: center;
     grid-row: 3/4; }
   .recommand__btn--pr2 {
     font-size: 20px;
-    color: #1078AD;
+    color: #1078ad;
     margin-top: 5%; }
   .recommand__btn--num3 {
-    background-color: #F4CF1B;
+    background-color: #f4cf1b;
     width: 200px;
     height: 40px;
     text-align: center; }
@@ -202,7 +202,7 @@ button:hover {
     grid-row: 5/5; }
   .recommand__btn--pr3 {
     font-size: 20px;
-    color: #1078AD;
+    color: #1078ad;
     margin-top: 5%; }
   .recommand__btn--link {
     text-decoration: none;
@@ -211,3 +211,34 @@ button:hover {
     margin-left: 32px; }
   .recommand__btn--link:hover {
     color: white; }
+
+.starttest {
+  background-color: #96c5dc;
+  margin-top: -10px;
+  padding-bottom: 20px; }
+  .starttest__title {
+    padding-top: 20px;
+    color: #1078ad;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900; }
+  .starttest__emoji {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto; }
+  .starttest__button {
+    margin-left: 30%;
+    height: 40px;
+    width: 40%;
+    font-family: cairo;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    background-color: rgba(150, 197, 220, 0.5);
+    border: none;
+    color: #1078AD;
+    border: 2px solid #1078AD;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer; }
