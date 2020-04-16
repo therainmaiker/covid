@@ -308,7 +308,7 @@ button:hover {
   margin-left: 120px; }
 
 .advise__container {
-  margin: 0 auto;
+  margin-top: 8%;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 24% 10% 24% 10% 24% 10% 24% 10%; }
@@ -319,7 +319,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto; }
 
-.advise__icn1--title {
+.advise__icon1--title {
   grid-column: 1/2;
   grid-row: 2/3;
   text-align: center;
@@ -333,7 +333,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto; }
 
-.advise__icn2--title {
+.advise__icon2--title {
   grid-column: 2/3;
   grid-row: 2/3;
   text-align: center;
@@ -347,7 +347,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto; }
 
-.advise__icn3--title {
+.advise__icon3--title {
   grid-column: 3/4;
   grid-row: 2/3;
   text-align: center;
@@ -361,7 +361,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto; }
 
-.advise__icn4--title {
+.advise__icon4--title {
   grid-column: 1/2;
   grid-row: 4/5;
   text-align: center;
@@ -375,7 +375,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto; }
 
-.advise__icn5--title {
+.advise__icon5--title {
   grid-column: 2/3;
   grid-row: 4/5;
   text-align: center;
@@ -389,7 +389,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto; }
 
-.advise__icn6--title {
+.advise__icon6--title {
   grid-column: 3/4;
   grid-row: 4/5;
   text-align: center;
@@ -403,7 +403,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto; }
 
-.advise__icn7--title {
+.advise__icon7--title {
   grid-column: 2/3;
   grid-row: 6/7;
   text-align: center;
