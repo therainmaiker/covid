@@ -1,0 +1,54 @@
+.corona {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .corona__image {
+    text-align: center;
+    width: 50%;
+    margin-top: 6%;
+  }
+  img.corona__image {
+    text-align: center;
+    width: 50%;
+  }
+  
+  .corona__text {
+    text-align: center;
+    width: 50%;
+  }
+  .corona__text--title {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 2rem;
+    color: $color-primary;
+  }
+  
+  .corona__text--paragraph {
+    margin-top: 3%;
+    font-size: 1.8rem;
+    color: gray;
+  }
+  .corona__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    width: 90%;
+    background-color: rgba(150, 197, 220, 0.5);
+    border: none;
+    color: #1078ad;
+    padding: 8px 12px;
+    border: 2px solid #1078ad;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  
+  button:hover {
+    color: #ffffff;
+    background-color: #1078ad;
+  }

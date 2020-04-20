@@ -1,9 +1,4 @@
-$color1: #1078ad;
-$color2: #c7c7c7;
-$btn_color: #1078ad;
-$color-primary: #1078ad;
-$color-secondary: #f4cf1b;
-$colorstarttest: #96c5dc;
+
 
 // header {
 // margin: 0;
@@ -21,125 +16,9 @@ $colorstarttest: #96c5dc;
   padding: 0;
 }
 
-.header__image {
-  width: 100%;
-}
 
-.header__menu--color {
-  color: black;
-}
-.header__menu--color1 {
-  color: $color-primary;
-}
 
-.header__menu--color2 {
-  color: $color-primary;
-  cursor: pointer;
-  background-color: transparent;
-  border: 2px solid #1078ad;
-  border-radius: 10px;
-  padding: 10px 10px;
-}
 
-.header__logo {
-  display: flex;
-  float: left;
-  margin-top: -6.5%;
-}
-
-.header__menu {
-  display: flex;
-  float: right;
-  align-items: center;
-
-  margin-top: -4%;
-}
-
-.header__menu a {
-  margin-right: 3em;
-  font-weight: 700;
-  font-size: 1.7em;
-  text-decoration: none;
-}
-
-.advice {
-  background: $color-secondary;
-  margin-top: -0.2%;
-  font-size: 1.6rem;
-  font-family: cairo;
-  width: 100%;
-}
-
-.advice__title {
-  color: black;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.advice__para {
-  text-align: center;
-  color: $color-primary;
-}
-
-a:-webkit-any-link {
-  cursor: unset;
-  text-decoration: none;
-}
-
-.corona {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.corona__image {
-  text-align: center;
-  width: 50%;
-  margin-top: 6%;
-}
-img.corona__image {
-  text-align: center;
-  width: 50%;
-}
-
-.corona__text {
-  text-align: center;
-  width: 50%;
-}
-.corona__text--title {
-  margin-top: 5%;
-  margin-bottom: 2%;
-  font-size: 2rem;
-  color: $color-primary;
-}
-
-.corona__text--paragraph {
-  margin-top: 3%;
-  font-size: 1.8rem;
-  color: gray;
-}
-.corona__button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4%;
-  width: 90%;
-  background-color: rgba(150, 197, 220, 0.5);
-  border: none;
-  color: #1078ad;
-  padding: 8px 12px;
-  border: 2px solid #1078ad;
-  border-radius: 10px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bolder;
-}
-
-button:hover {
-  color: #ffffff;
-  background-color: #1078ad;
-}
 
 
 // .symptome__container__flex{
@@ -163,6 +42,9 @@ button:hover {
 
 
 // advise sass
+@import "variables" ;
+@import "navbar";
+@import "coronatest";
 @import "symptome";
 @import "suggest";
 @import "starttest";

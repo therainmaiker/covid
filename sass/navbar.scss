@@ -1,0 +1,64 @@
+.header__image {
+    width: 100%;
+  }
+  
+  .header__menu--color {
+    color: black;
+  }
+  .header__menu--color1 {
+    color: $color-primary;
+  }
+  
+  .header__menu--color2 {
+    color: $color-primary;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #1078ad;
+    border-radius: 10px;
+    padding: 10px 10px;
+  }
+  
+  .header__logo {
+    display: flex;
+    float: left;
+    margin-top: -6.5%;
+  }
+  
+  .header__menu {
+    display: flex;
+    float: right;
+    align-items: center;
+  
+    margin-top: -4%;
+  }
+  
+  .header__menu a {
+    margin-right: 3em;
+    font-weight: 700;
+    font-size: 1.7em;
+    text-decoration: none;
+  }
+  
+  .advice {
+    background: $color-secondary;
+    margin-top: -0.2%;
+    font-size: 1.6rem;
+    font-family: cairo;
+    width: 100%;
+  }
+  
+  .advice__title {
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .advice__para {
+    text-align: center;
+    color: $color-primary;
+  }
+  
+  a:-webkit-any-link {
+    cursor: unset;
+    text-decoration: none;
+  }
