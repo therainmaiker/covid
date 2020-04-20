@@ -1,0 +1,38 @@
+.info{
+  
+    &__title{
+     padding-top: 20px;
+     text-align: center;
+     font-weight: 700;
+     font-size: 24px;
+     color: $color1;
+ }
+ &__para{
+     text-align: center;
+     font-weight: 700;
+     font-size: 20px;
+     color: #1A519E;
+ }
+ &__link{
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     text-decoration: none;
+     color: $colorstarttest;
+     text-align: center;
+     font-weight: 800;
+     background-image: url(/Design/Assets/png/btn-bg.png);
+     width: 424px;
+ }
+ &__link:hover{
+     color: $color-secondary;
+ }
+
+
+
+ background-color: rgba($color: $color1, $alpha: .4);
+ padding-bottom: 40px;
+ margin-bottom: 20px;
+}

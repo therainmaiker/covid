@@ -294,6 +294,36 @@ button:hover {
   width: 100%;
   height: 35px; }
 
+.info {
+  background-color: rgba(16, 120, 173, 0.4);
+  padding-bottom: 40px;
+  margin-bottom: 20px; }
+  .info__title {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1078ad; }
+  .info__para {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1A519E; }
+  .info__link {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: #96c5dc;
+    text-align: center;
+    font-weight: 800;
+    background-image: url(/Design/Assets/png/btn-bg.png);
+    width: 424px; }
+  .info__link:hover {
+    color: #f4cf1b; }
+
 .advise img {
   width: 105px;
   height: 105px;
@@ -311,7 +341,7 @@ button:hover {
   margin-top: 8%;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 24% 10% 24% 10% 24% 10% 24% 10%; }
+  grid-template-rows: 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5%; }
 
 .advise__container--icon {
   grid-column: 1/2;
@@ -410,33 +440,3 @@ button:hover {
   font-size: 14px;
   color: #1078ad;
   font-weight: 700; }
-
-.info {
-  background-color: rgba(16, 120, 173, 0.4);
-  padding-bottom: 40px;
-  margin-bottom: 20px; }
-  .info__title {
-    padding-top: 20px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 24px;
-    color: #1078ad; }
-  .info__para {
-    text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    color: #1A519E; }
-  .info__link {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    text-decoration: none;
-    color: #96c5dc;
-    text-align: center;
-    font-weight: 800;
-    background-image: url(/Design/Assets/png/btn-bg.png);
-    width: 424px; }
-  .info__link:hover {
-    color: #f4cf1b; }
