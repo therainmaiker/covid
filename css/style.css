@@ -3,7 +3,8 @@
   padding: 0; }
 
 .header__image {
-  width: 100%; }
+  width: 100%;
+  background-image: url(); }
 
 .header__menu--color {
   color: black; }
