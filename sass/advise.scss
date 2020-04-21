@@ -1,123 +1,135 @@
 
-.advise{
-    img{
-        width: 105px;
-        height: 105px;
-        margin-bottom: 40px;
-        margin-top: 20px;
-    }
-    &__title{
-        text-align: center;
-        color: $color-primary;
-        padding-top: 40px;
-        margin-right: 120px;
-        margin-left: 120px
-        ;
-    }
-    &__container{
-        margin-top: 8%;
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5%;
-    }
-    &__container--icon{
-        grid-column: 1/2;
-        grid-row: 1/2;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    &__icon1--title{
-        grid-column: 1/2;
-        grid-row: 2/3;
-        text-align: center;
-        font-size: 14px;
-        color: $color-primary;
-        font-weight: 700;
-    }
-    &__container--icon2{
-        grid-column: 2/3;
-        grid-row: 1/2;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    &__icon2--title{
-        grid-column: 2/3;
-        grid-row: 2/3;
-        text-align: center;
-        font-size: 14px;
-        color: $color-primary;
-        font-weight: 700;
-    }
-    &__container--icon3{
-        grid-column: 3/4;
-        grid-row: 1/2;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    &__icon3--title{
-        grid-column: 3/4;
-        grid-row: 2/3;
-        text-align: center;
-        font-size: 14px;
-        color: $color-primary;
-        font-weight: 700;
-    }
-    &__container--icon4{
-        grid-column: 1/2;
-        grid-row: 3/4;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    &__icon4--title{
-        grid-column: 1/2;
-        grid-row: 4/5;
-        text-align: center;
-        font-size: 14px;
-        color: $color-primary;
-        font-weight: 700;
-    }
-    &__container--icon5{
-        grid-column: 2/3;
-        grid-row: 3/4;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    &__icon5--title{
-        grid-column: 2/3;
-        grid-row: 4/5;
-        text-align: center;
-        font-size: 14px;
-        color: $color-primary;
-        font-weight: 700;
-  
-    }
-    &__container--icon6{
-        grid-column: 3/4;
-        grid-row: 3/4;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    &__icon6--title{
-        grid-column: 3/4;
-        grid-row: 4/5;
-        text-align: center;
-        font-size: 14px;
-        color: $color-primary;
-        font-weight: 700;
-    }
-    &__container--icon7{
-        grid-column: 2/3;
-        grid-row: 5/6;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    &__icon7--title{
-        grid-column: 2/3;
-        grid-row: 6/7;
-        text-align: center;
-        font-size: 14px;
-        color: $color-primary;
-        font-weight: 700;
-    }
-  
+@mixin marg {
+    margin-left: auto;
+    margin-right: auto;
+    
   }
+
+
+
+
+
+.advise{
+  img{
+      width: 105px;
+      height: 105px;
+      margin-bottom: 40px;
+      margin-top: 20px;
+  }
+  &__title{
+      text-align: center;
+      color: $color-primary;
+      padding-top: 40px;
+     margin: 0 auto;
+      font-size: 2em;
+
+    }
+  &__container{
+
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: 1fr 0,5fr 1fr 0,5fr 1fr 1fr  ;
+      margin-bottom: 4%;
+      margin-top: 5%;
+  }
+  &__container--icon{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  &__icon1--title{
+      grid-column: 1/2;
+      grid-row: 2/3;
+      text-align: center;
+      font-size: 19px;
+      color: $color-primary;
+      font-weight: 700;
+  }
+  &__container--icon2{
+      grid-column: 2/3;
+      grid-row: 1/2;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  &__icon2--title{
+      grid-column: 2/3;
+      grid-row: 2/3;
+      text-align: center;
+      font-size: 19px;
+      color: $color-primary;
+      font-weight: 700;
+  }
+  &__container--icon3{
+      grid-column: 3/4;
+      grid-row: 1/2;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  &__icon3--title{
+      grid-column: 3/4;
+      grid-row: 2/3;
+      text-align: center;
+      font-size: 19px;
+      color: $color-primary;
+      font-weight: 700;
+  }
+  &__container--icon4{
+      grid-column: 1/2;
+      grid-row: 3/4;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  &__icon4--title{
+      grid-column: 1/2;
+      grid-row: 4/5;
+      text-align: center;
+      font-size: 19px;
+      color: $color-primary;
+      font-weight: 700;
+  }
+  &__container--icon5{
+      grid-column: 2/3;
+      grid-row: 3/4;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  &__icon5--title{
+      grid-column: 2/3;
+      grid-row: 4/5;
+      text-align: center;
+      font-size: 19px;
+      color: $color-primary;
+      font-weight: 700;
+
+  }
+  &__container--icon6{
+      grid-column: 3/4;
+      grid-row: 3/4;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  &__icon6--title{
+      grid-column: 3/4;
+      grid-row: 4/5;
+      text-align: center;
+      font-size: 19px;
+      color: $color-primary;
+      font-weight: 700;
+  }
+  &__container--icon7{
+      grid-column: 2/3;
+      grid-row: 5/6;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  &__icon7--title{
+      grid-column: 2/3;
+      grid-row: 6/7;
+      text-align: center;
+      font-size: 19px;
+      color: $color-primary;
+      font-weight: 700;
+  }
+
+}

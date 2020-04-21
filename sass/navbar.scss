@@ -1,6 +1,7 @@
 .header__image {
     width: 100%;
-    background-image: url();
+  
+  z-index: -1;
   }
   
   .header__menu--color {
@@ -29,8 +30,7 @@
     display: flex;
     float: right;
     align-items: center;
-  
-    margin-top: -4%;
+    margin-top: -5%;
   }
   
   .header__menu a {
@@ -42,9 +42,9 @@
   
   .advice {
     background: $color-secondary;
-    margin-top: -0.2%;
+    margin-top: -0.4%;
     font-size: 1.6rem;
-    font-family: cairo;
+    font-family: 'Cairo', sans-serif;
     width: 100%;
   }
   

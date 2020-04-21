@@ -17,7 +17,15 @@
 }
 
 
-
+@import "variables" ;
+@import "navbar";
+@import "coronatest";
+@import "symptome";
+@import "suggest";
+@import "starttest";
+@import "footer" ;
+@import "info" ;
+@import "advise" ;
 
 
 
@@ -42,15 +50,7 @@
 
 
 // advise sass
-@import "variables" ;
-@import "navbar";
-@import "coronatest";
-@import "symptome";
-@import "suggest";
-@import "starttest";
-@import "footer" ;
-@import "info" ;
-@import "advise" ;
+
 
 
 

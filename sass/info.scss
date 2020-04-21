@@ -1,5 +1,15 @@
 .info{
   
+
+    background-color: $colorstarttest;
+    padding-bottom: 50px;
+padding-top: 20px;
+    margin-bottom: 20px;
+
+
+
+
+
     &__title{
      padding-top: 20px;
      text-align: center;
@@ -7,32 +17,29 @@
      font-size: 24px;
      color: $color1;
  }
- &__para{
-     text-align: center;
-     font-weight: 700;
-     font-size: 20px;
-     color: #1A519E;
- }
+ 
  &__link{
      margin-left: auto;
      margin-right: auto;
+     background-image: url(/Design/Assets/png/btn-bg.png);
      margin-top: 20px;
-     padding-top: 2px;
-     padding-bottom: 2px;
+    padding: 2px 2px;
      text-decoration: none;
      color: $colorstarttest;
      text-align: center;
      font-weight: 800;
-     background-image: url(/Design/Assets/png/btn-bg.png);
      width: 424px;
  }
  &__link:hover{
      color: $color-secondary;
  }
 
+ &__para{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1A519E;
+}
 
-
- background-color: rgba($color: $color1, $alpha: .4);
- padding-bottom: 40px;
- margin-bottom: 20px;
+ 
 }
