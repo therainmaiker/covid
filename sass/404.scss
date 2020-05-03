@@ -1,0 +1,50 @@
+.error {
+    &__pic {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 8%;
+
+
+
+    }
+
+    &__title {
+        color: #1078AD;
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    &__button {
+        display: block;
+        width: 20%;
+        background-color: #1078AD;
+        padding: 8px 40px;
+        border-radius: 0px;
+        margin: 0 auto;
+        margin-top: 10%;
+
+
+    }
+
+    &__button:hover {
+        border: 2px solid #96C5DC;
+        background-color: #96C5DC;
+    }
+
+    &__button--link {
+        font-size: 24px;
+        color: white;
+    }
+}
+
+.lineblue { 
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1078AD;
+    
+    
+    }

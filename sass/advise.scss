@@ -5,7 +5,11 @@
     
   }
 
-
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 
 
 
@@ -28,7 +32,7 @@
 
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-rows: 1fr 0,5fr 1fr 0,5fr 1fr 1fr  ;
+      grid-template-rows: 1fr 0,5fr 1fr 0,5fr 1fr 0,5fr  ;
       margin-bottom: 4%;
       margin-top: 5%;
   }

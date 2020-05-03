@@ -4,7 +4,7 @@
 
 .header__image {
   width: 100%;
-  background-image: url(); }
+  z-index: -1; }
 
 .header__menu--color {
   color: black; }
@@ -29,7 +29,7 @@
   display: flex;
   float: right;
   align-items: center;
-  margin-top: -4%; }
+  margin-top: -5%; }
 
 .header__menu a {
   margin-right: 3em;
@@ -39,9 +39,9 @@
 
 .advice {
   background: #f4cf1b;
-  margin-top: -0.2%;
+  margin-top: -0.4%;
   font-size: 1.6rem;
-  font-family: cairo;
+  font-family: 'Cairo', sans-serif;
   width: 100%; }
 
 .advice__title {
@@ -126,12 +126,12 @@ button:hover {
   margin-top: 3%; }
 
 .caption {
-  font-family: Cairo;
+  font-family: 'Cairo', sans-serif;
   font-size: 1.5em;
   font-weight: 900; }
 
 .suggestions__title {
-  font-family: cairo;
+  font-family: 'Cairo', sans-serif;
   font-size: 2.5em;
   text-align: center;
   color: #1078ad; }
@@ -232,7 +232,7 @@ button:hover {
     margin-left: 30%;
     height: 40px;
     width: 40%;
-    font-family: cairo;
+    font-family: 'Cairo', sans-serif;
     font-size: 20px;
     font-weight: bolder;
     display: block;
@@ -246,7 +246,7 @@ button:hover {
 
 .footer__container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 100%;
   margin: 0 160px 40px;
   text-align: center; }
@@ -296,8 +296,9 @@ button:hover {
   height: 35px; }
 
 .info {
-  background-color: rgba(16, 120, 173, 0.4);
-  padding-bottom: 40px;
+  background-color: #96c5dc;
+  padding-bottom: 50px;
+  padding-top: 20px;
   margin-bottom: 20px; }
   .info__title {
     padding-top: 20px;
@@ -305,25 +306,28 @@ button:hover {
     font-weight: 700;
     font-size: 24px;
     color: #1078ad; }
+  .info__link {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/Design/Assets/png/btn-bg.png);
+    margin-top: 20px;
+    padding: 2px 2px;
+    text-decoration: none;
+    color: #96c5dc;
+    text-align: center;
+    font-weight: 800;
+    width: 424px; }
+  .info__link:hover {
+    color: #f4cf1b; }
   .info__para {
     text-align: center;
     font-weight: 700;
     font-size: 20px;
     color: #1A519E; }
-  .info__link {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    text-decoration: none;
-    color: #96c5dc;
-    text-align: center;
-    font-weight: 800;
-    background-image: url(/Design/Assets/png/btn-bg.png);
-    width: 424px; }
-  .info__link:hover {
-    color: #f4cf1b; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue; } }
 
 .advise img {
   width: 105px;
@@ -335,14 +339,13 @@ button:hover {
   text-align: center;
   color: #1078ad;
   padding-top: 40px;
-  margin-right: 120px;
-  margin-left: 120px;
+  margin: 0 auto;
   font-size: 2em; }
 
 .advise__container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5%;
+  grid-template-rows: 1fr 0,5fr 1fr 0,5fr 1fr 0,5fr;
   margin-bottom: 4%;
   margin-top: 5%; }
 
