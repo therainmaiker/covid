@@ -57,37 +57,25 @@
 
     </section>
 
-    <button class="start-button">Démarrer le test</button>
+    <button class="start-button " id="start-btn"   >Démarrer le test</button>
+
+
+    <div class="container">
+        <div id="question-container" class="hide">
+          <div id="question">Question</div>
+          <div id="answer-buttons" class="btn-grid">
+        
+          </div>
+        </div>
+        <div class="controls">
+          <button  class="previous-btn btn"> Precedent </button>
+          <button id="next-btn" class="next-btn btn hide"> Suivant </button>
+        </div>
+      </div>
+            
     
-    <!-------------------------------------------------------fin de la section Préambule------------------------------------------------------->
 
-    <section class="questionnaire">
-
-        <div class="progress">
-            <h3><span class="question-number">1</span> /22</h3>
-            <div class="progress__bar">
-                <div class="bar"></div>
-            </div>
-        </div>
-
-        <div class="animation">
-            <h1 class="question"></h1>
-
-            <div class="inputs">
-
-
-            </div>
-
-
-            <div class="button-container">
-                <button class="previous">Précédent</button>
-                <button class="next">Suivant</button>
-            </div>
-
-
-        </div>
-
-    </section>
+ 
 
 </header>
 
@@ -179,6 +167,6 @@
   </footer>
   
 
-
+  <script src="app.js">  </script>
  </body>
 </html>

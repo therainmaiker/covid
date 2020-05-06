@@ -3,7 +3,7 @@
     width: 70%;
     text-align: center;
     margin: 20px auto;
-    background-color: $grey-color;
+    background-color: $color-primary;
     padding: 50px 33px;
     border-radius: 5px;
 
@@ -12,13 +12,6 @@
         font-size: 28px;
         font-weight: bolder;
         color: $color-secondary;
-    }
-
-    hr {
-        width: 50%;
-        margin: auto;
-
-        border: 1px solid $orange-co;
     }
 
     p {
@@ -34,7 +27,7 @@
 }
 
 .start-button {
-
+display: block;
     font-size: 22px;
     font-weight: bolder;
     color: white;
@@ -43,10 +36,9 @@
     border: 3px solid $color-secondary;
     border-radius: 6px;
     cursor: pointer;
-    transition: all .3s ease;
-    margin: 10px auto 50px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
+    
+  
 
 
 
@@ -129,200 +121,203 @@
 }
 
 
-.questionnaire {
-    width: 70%;
-    border: 1px solid rgb(190, 190, 190);
-    margin: 20px auto;
-    border-radius: 4px;
-    display: none;
-    margin-bottom: 50px;
-    overflow: hidden;
-
-
-    h1 {
-        text-align: center;
-        font-size: 31px;
-        color: $grey-color;
-        font-weight: bolder;
-        width: 82%;
-        margin: 70px auto;
-    }
-
-    .progress {
-        border-bottom: 1px solid rgb(190, 190, 190);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 7px 0;
-        background-color: #f7f7f7;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-
-        h3 {
-            font-weight: bolder;
-            margin-right: 15px;
-        }
-
-        &__bar {
-            width: 90%;
-            height: 10px;
-            border-radius: 20px;
-            background-color: $button-color;
-            overflow: hidden;
-
-
-            .bar {
-                height: 100%;
-                width: calc(1 * calc(100% / 22));
-                background-color: $color-secondary;
-                border-bottom-left-radius: 20px;
-                border-top-left-radius: 20px;
-                transition: all .4s ease;
-            }
-        }
-    }
-
-
-}
-
-.inputs {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    height: 50%;
-
-
-
-    input[type="number"] {
-        font-size: 16px;
-        border: 1px solid $color-secondary;
-        width: 55%;
-        padding: 10px;
-    }
-
-    .input-span {
-        font-size: 16px;
-        border: 1px solid $color-secondary;
-        border-left: none;
-        padding: 4px 10px 5px;
-        color: $color-primary;
-        background-color: $button-color;
-    }
-
-    input[type="radio"] {
-        -webkit-appearance: none;
-
-    }
-
-    input[type="radio"]:checked+label {
-
-        background-color: $color-secondary;
-        color: $orange-co;
-    }
-
-    label {
-        height: 80px;
-        width: 120px;
-        color: $color-secondary;
-        border-radius: 4px;
-        border: 4px solid $color-secondary;
-        font-size: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 9px 0px 0;
-        transition: .5s ease;
-        margin-right: 50px;
-
-
-        span {
-            font-size: 22px;
-            position: relative;
-            bottom: 5px;
-
-        }
-
-
-    }
-}
-
-.button-container {
-    margin: 110px 0 40px;
-    padding: 0 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
 
 
 
 
-    button {
-        font-size: 17px;
-        background-color: $button-color;
-        padding: 10px 20px;
-        color: $color-secondary;
-        border: 2px solid $color-secondary;
-        border-radius: 4px;
-        transition: .3s ease;
 
-        &:hover {
-            background-color: $color-secondary;
-            color: white;
-        }
-
-        &:disabled {
-            cursor: not-allowed;
-            opacity: .65;
-
-            &:hover {
-                background-color: $button-color;
-                color: $color-secondary;
-            }
-
-        }
-    }
-}
+// .questionnaire {
+//     width: 70%;
+//     border: 1px solid rgb(190, 190, 190);
+//     margin: 20px auto;
+//     border-radius: 4px;
+//     display: none;
+//     margin-bottom: 50px;
+//     overflow: hidden;
 
 
-.hide {
-    opacity: 0;
-    pointer-events: none;
-}
+//     h1 {
+//         text-align: center;
+//         font-size: 31px;
+//         color: $grey-color;
+//         font-weight: bolder;
+//         width: 82%;
+//         margin: 70px auto;
+//     } 
+// }
+
+//     .progress {
+//         border-bottom: 1px solid rgb(190, 190, 190);
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         padding: 7px 0;
+//         background-color: #f7f7f7;
+//         border-top-left-radius: 4px;
+//         border-top-right-radius: 4px;
+
+//         h3 {
+//             font-weight: bolder;
+//             margin-right: 15px;
+//         }
+
+//         &__bar {
+//             width: 90%;
+//             height: 10px;
+//             border-radius: 20px;
+//             background-color: $button-color;
+//             overflow: hidden;
 
 
-@keyframes next {
-    0% {
-        opacity: 0;
-        transform: translateX(90%);
-    }
+//             .bar {
+//                 height: 100%;
+//                 width: calc(1 * calc(100% / 22));
+//                 background-color: $color-secondary;
+//                 border-bottom-left-radius: 20px;
+//                 border-top-left-radius: 20px;
+//                 transition: all .4s ease;
+//             }
+//         }
+//     }
 
-    15% {
-        opacity: 1;
-    }
 
-    100% {
-        transform: translateX(0);
-    }
-}
+// }
 
-@keyframes previous {
-    0% {
-        opacity: 0;
-        transform: translateX(-90%);
-    }
+// .inputs {
 
-    15% {
-        opacity: 1;
-    }
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
 
-    100% {
-        transform: translateX(0);
-    }
-}
+//     height: 50%;
 
 
 
+//     input[type="number"] {
+//         font-size: 16px;
+//         border: 1px solid $color-secondary;
+//         width: 55%;
+//         padding: 10px;
+//     }
+
+//     .input-span {
+//         font-size: 16px;
+//         border: 1px solid $color-secondary;
+//         border-left: none;
+//         padding: 4px 10px 5px;
+//         color: $color-primary;
+//         background-color: $button-color;
+//     }
+
+//     input[type="radio"] {
+//         -webkit-appearance: none;
+
+//     }
+
+//     input[type="radio"]:checked+label {
+
+//         background-color: $color-secondary;
+//         color: $orange-co;
+//     }
+
+//     label {
+//         height: 80px;
+//         width: 120px;
+//         color: $color-secondary;
+//         border-radius: 4px;
+//         border: 4px solid $color-secondary;
+//         font-size: 30px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: center;
+//         padding: 9px 0px 0;
+//         transition: .5s ease;
+//         margin-right: 50px;
+
+
+//         span {
+//             font-size: 22px;
+//             position: relative;
+//             bottom: 5px;
+
+//         }
+
+
+//     }
+// }
+
+// .button-container {
+//     margin: 110px 0 40px;
+//     padding: 0 50px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     width: 100%;
+
+
+
+
+//     button {
+//         font-size: 17px;
+//         background-color: $button-color;
+//         padding: 10px 20px;
+//         color: $color-secondary;
+//         border: 2px solid $color-secondary;
+//         border-radius: 4px;
+//         transition: .3s ease;
+
+//         &:hover {
+//             background-color: $color-secondary;
+//             color: white;
+//         }
+
+//         &:disabled {
+//             cursor: not-allowed;
+//             opacity: .65;
+
+//             &:hover {
+//                 background-color: $button-color;
+//                 color: $color-secondary;
+//             }
+
+//         }
+//     }
+// }
+
+
+// .hide {
+//     opacity: 0;
+//     pointer-events: none;
+// }
+
+
+// @keyframes next {
+//     0% {
+//         opacity: 0;
+//         transform: translateX(90%);
+//     }
+
+//     15% {
+//         opacity: 1;
+//     }
+
+//     100% {
+//         transform: translateX(0);
+//     }
+// }
+
+// @keyframes previous {
+//     0% {
+//         opacity: 0;
+//         transform: translateX(-90%);
+//     }
+
+//     15% {
+//         opacity: 1;
+//     }
+
+//     100% {
+//         transform: translateX(0);
+//     }
+// }
