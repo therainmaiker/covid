@@ -501,7 +501,7 @@ button:hover {
       width: 80%;
       margin: 30px auto; }
 
-.start-button {
+.startbutton {
   display: block;
   font-size: 22px;
   font-weight: bolder;
@@ -512,7 +512,7 @@ button:hover {
   border-radius: 6px;
   cursor: pointer;
   margin: 0 auto; }
-  .start-button:hover {
+  .startbutton:hover {
     color: #f4cf1b;
     background-color: transparent; }
 

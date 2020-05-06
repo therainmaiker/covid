@@ -5,8 +5,18 @@
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
-function startquiz () {
 
+
+
+
+
+function startquiz ()
+
+{
+startButton.style.display = 'none';
+
+ console.log("Hello world!");
+ 
 
 }
 
@@ -19,9 +29,12 @@ function selectquiz () {
 
 }
 
+startButton.addEventListener("click", startquiz);
 
 
- 
+
+
+
 
 
 const questions = [{
